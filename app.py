@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from transformers import pipeline
 from PIL import Image
+from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 
 # Suppress warnings
